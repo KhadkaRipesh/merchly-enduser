@@ -2,7 +2,10 @@
   "name": "@react-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve",
+    "start:enduser": "nx run merchly-workspace:serve"
+  },
   "private": true,
   "dependencies": {
     "react": "18.3.1",

@@ -8,7 +8,7 @@ export default defineConfig({
   root: __dirname,
   cacheDir: '../../node_modules/.vite/apps/merchly-workspace',
   server: {
-    port: 4200,
+    port: 3000,
     host: 'localhost',
   },
   preview: {
